@@ -1,0 +1,65 @@
+
+h1 {
+    text-align: center;
+  }
+.container{
+    overflow: hidden;
+    border: 3px solid black;
+    
+    width: 800px;
+    height: 370px;
+    
+    margin: 30px auto;
+}
+.container1{
+  background-color: #7e7775;
+  
+  width:100%;
+  height: 60px;
+  
+  .hip{}
+  
+}
+.one {
+  
+  float: left;
+  width: 33.3%;
+  height: 250px;
+  margin: 0 auto;
+  background-image: url(shoes.jpeg);
+  
+   
+}
+
+.two {
+  float: left;
+  width: 33.3%;
+  height: 250px;
+  
+  
+}
+
+
+
+.three {
+  float: left;
+  width: 33.4%;
+  height: 250px;
+  background-color: #b20403;
+  
+ 
+}
+
+.container2{
+ 
+  width: 100%;
+ 
+  padding-top: 307px;
+  background-color: #110f0f;
+ 
+ 
+  
+  
+}
+
+    
