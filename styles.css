@@ -1,15 +1,25 @@
 
-h1 {
-    text-align: center;
-  }
+
+  
 .container{
     overflow: hidden;
-    border: 3px solid black;
-    
-    width: 800px;
-    height: 370px;
-    
-    margin: 30px auto;
+    padding: 20px;
+    max-width: 940px;
+    margin: auto;
+    border: solid;
+}
+
+.sale{
+  position: fixed;
+  background-color: #ed2f2f;
+  color: white;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bolder;
+  margin-top: -10px;
+  margin-left: -25px;
 }
 .container1{
   background-color: #7e7775;
@@ -17,25 +27,29 @@ h1 {
   width:100%;
   height: 60px;
   
-  .hip{}
+ 
   
 }
 .one {
   
   float: left;
-  width: 33.3%;
-  height: 250px;
-  margin: 0 auto;
-  background-image: url(shoes.jpeg);
-  
-   
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 1em;
+  padding: 0;
+}
+  .one img{
+    width: 100%;   
 }
 
 .two {
   float: left;
-  width: 33.3%;
-  height: 250px;
-  
+  display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1em;
+    padding: 0;
+    margin: 0;
   
 }
 
@@ -43,11 +57,53 @@ h1 {
 
 .three {
   float: left;
+  display: grid;
   width: 33.4%;
   height: 250px;
   background-color: #b20403;
   
  
+}
+.square{
+  display: inline-flex;
+  justify-content:baseline;
+  margin-top: 1em;
+}
+
+.square1{
+  background-color: black;
+  width: 30px;
+  height: 30px;
+}
+.square2{
+  background-color: #2f6ee1;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.square3{
+  background-color: #ed2f30;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.square4{
+  background-color: #f0be1d;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.square5{
+  background-color: #90cb1f;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.square6{
+  background-color: #885214;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
 }
 
 .container2{
@@ -55,7 +111,7 @@ h1 {
   width: 100%;
  
   padding-top: 307px;
-  background-color: #110f0f;
+  background-color: #b38c8c;
  
  
   
