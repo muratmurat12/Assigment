@@ -6,6 +6,7 @@ body{
   max-width: 900px;
   margin: auto;
 }
+
 .containerin{
   border: solid 5px;
 }
@@ -14,15 +15,13 @@ body{
   background-color:red;
   color: white;
   padding: 12px 22px 12px 22px;
- 
   font-weight: bolder;
-  margin-top: -10px;
-  margin-left: -25px;
+  margin:-10px 0 0 -25px;
 }
 .head{
   text-align: center;
   background-color: #e9e1e1ab;
-  padding: 6px;
+  padding: 5px;
 }
 .description {
   display: grid;
@@ -105,9 +104,7 @@ h4{
 .butt-main{
   border: solid;
   width: 100%;
-  margin-top: -4px;
-  margin-bottom: -3px;
-  margin-left: -3px;
+  margin:-4px 0 -3px -3px;
   position: relative;
   padding: 0;
 }
